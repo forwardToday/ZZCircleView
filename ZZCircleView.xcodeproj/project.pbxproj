@@ -15,6 +15,7 @@
 		C4AEA26A1CC0D21D00AAA8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AEA2681CC0D21D00AAA8FD /* LaunchScreen.storyboard */; };
 		C4AEA2751CC0D21D00AAA8FD /* ZZCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEA2741CC0D21D00AAA8FD /* ZZCircleViewTests.m */; };
 		C4AEA2801CC0D21E00AAA8FD /* ZZCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEA27F1CC0D21E00AAA8FD /* ZZCircleViewUITests.m */; };
+		C4AEA2901CC0D27F00AAA8FD /* ZZCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEA28F1CC0D27F00AAA8FD /* ZZCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C4AEA27B1CC0D21E00AAA8FD /* ZZCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AEA27F1CC0D21E00AAA8FD /* ZZCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCircleViewUITests.m; sourceTree = "<group>"; };
 		C4AEA2811CC0D21E00AAA8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AEA28E1CC0D27F00AAA8FD /* ZZCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCircleView.h; sourceTree = "<group>"; };
+		C4AEA28F1CC0D27F00AAA8FD /* ZZCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C4AEA2591CC0D21D00AAA8FD /* ZZCircleView */ = {
 			isa = PBXGroup;
 			children = (
+				C4AEA28D1CC0D25B00AAA8FD /* ZZCircleView */,
 				C4AEA25D1CC0D21D00AAA8FD /* AppDelegate.h */,
 				C4AEA25E1CC0D21D00AAA8FD /* AppDelegate.m */,
 				C4AEA2601CC0D21D00AAA8FD /* ViewController.h */,
@@ -138,6 +142,15 @@
 				C4AEA2811CC0D21E00AAA8FD /* Info.plist */,
 			);
 			path = ZZCircleViewUITests;
+			sourceTree = "<group>";
+		};
+		C4AEA28D1CC0D25B00AAA8FD /* ZZCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				C4AEA28E1CC0D27F00AAA8FD /* ZZCircleView.h */,
+				C4AEA28F1CC0D27F00AAA8FD /* ZZCircleView.m */,
+			);
+			path = ZZCircleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				C4AEA2621CC0D21D00AAA8FD /* ViewController.m in Sources */,
 				C4AEA25F1CC0D21D00AAA8FD /* AppDelegate.m in Sources */,
+				C4AEA2901CC0D27F00AAA8FD /* ZZCircleView.m in Sources */,
 				C4AEA25C1CC0D21D00AAA8FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
